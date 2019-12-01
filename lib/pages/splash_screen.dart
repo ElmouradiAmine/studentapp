@@ -44,7 +44,7 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
       body: GestureDetector(
         onTap: () {
-          Navigator.of(context).popAndPushNamed('/login');
+          Navigator.of(context).popAndPushNamed('/selection');
         },
         child: Container(
           width: double.infinity,
